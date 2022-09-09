@@ -3,15 +3,15 @@ package com.example.notbored
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.notbored.databinding.ActivitiesScreenBinding
+import com.example.notbored.databinding.ScreenActivitiesBinding
 
 class ScreenActivities : AppCompatActivity() {
 
-    private lateinit var binding: ActivitiesScreenBinding
+    private lateinit var binding: ScreenActivitiesBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivitiesScreenBinding.inflate(layoutInflater)
+        binding = ScreenActivitiesBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val activities = arrayOf(
